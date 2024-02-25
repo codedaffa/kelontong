@@ -1,0 +1,7 @@
+1. Download the JDBC MySQL Driver : https://dev.mysql.com/downloads/connector/j/
+2. Copy file in subfolder of project (ex: libs) (not 'src')
+3. Project->Properties->Libraries->Add Jar/Folder->Select file
+And packaging dependent librairies with relative path in 'dist' :
+
+4. Project->Build->Packaging->Check "Copy Dependent Librairies"
+5. "Clean and Build"
